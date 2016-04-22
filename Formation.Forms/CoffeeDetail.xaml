@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="Formation.Forms.CoffeeDetail"     
+xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+	<ContentPage.Content>
+
+	<StackLayout Orientation="Vertical">
+		<maps:Map WidthRequest="320" HeightRequest="200"
+            x:Name="MyMap"
+            IsShowingUser="true"
+            MapType="Hybrid"
+        />
+		<Label Text="Nom du café :" />
+		<Label Text="{Binding Name}" />
+	</StackLayout>
+
+	</ContentPage.Content>
+</ContentPage>

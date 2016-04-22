@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{10A76954-3704-46C8-A6F7-BFB719EEECCF}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Formation.Tests.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CoffeeListViewModelTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CoffeeViewModelTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LandingViewModelTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestDbConnectionProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestHelper.cs" />
+  </ItemGroup>
+</Project>

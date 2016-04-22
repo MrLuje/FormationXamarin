@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Formation.Forms.Landing">
+	<ContentPage.Content>
+
+		<StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+			<Label Text="{Binding Message}" />
+			<Button x:Name="btnContinue" Text="{Binding ContinueMsg}" Command="{Binding ContinueCommand}">
+			</Button>
+		</StackLayout>
+				
+	</ContentPage.Content>
+</ContentPage>

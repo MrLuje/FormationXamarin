@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+packages
+bin/
+obj/
+*.userprefs
+*.user
+
